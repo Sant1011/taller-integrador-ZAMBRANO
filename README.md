@@ -13,8 +13,8 @@ calc() no indica que calcula. Si el archivo creciera con mas funciones, podria c
 - Renombrar los identificadores de los elementos HTML
 r, r2, cont1, n1, n2, n3 no describen su contenido y se lee un poco descontextualizado.
 
-- Cambiar el titulo de la pestaña superior
-<title>pagina</title> no informa nada al usuario. Con varias pestañas abiertas no se puede identificar cuál es.
+- Cambiar el titulo de la pestaña superior.
+<title>pagina</title> no informa nada al usuario. Con varias pestañas abiertas no se puede identificar cual es.
 
-- Eliminar lineas de codigo que no cumplian con alguna funcion
-data1 (nunca usada) y la función comentada calcularAntiguo son simplemente comentarios que no aportan mucho que digamos y aumentan el tamaño del archivo.
+- Eliminar lineas de codigo que no cumplian con alguna funcion.
+data1 (nunca usada) y la funcion comentada calcularAntiguo son simplemente comentarios que no aportan mucho que digamos y aumentan el tamaño del archivo.
