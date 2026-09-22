@@ -28,7 +28,6 @@
 
 <script>
 
-let data1 = [];
 let TempValue2 = 0;
 let x = 3;
 
@@ -38,7 +37,6 @@ function calc() {
     let b = parseFloat(document.getElementById("n2").value);
     let c = parseFloat(document.getElementById("n3").value);
 
-    console.log("valores capturados:", a, b, c);
 
     if (isNaN(a) || isNaN(b) || isNaN(c)) {
         document.getElementById("r").innerHTML = "Debe ingresar las tres notas.";
@@ -55,7 +53,6 @@ function calc() {
         document.getElementById("r2").innerHTML = "Resultado: reprobado";
     }
 
-    console.log("promedio calculado");
 }
 
 // function calcularAntiguo(nota1, nota2) {
@@ -63,7 +60,6 @@ function calc() {
 //     return suma / 2;
 // }
 
-console.log("pagina cargada");
 
 </script>
 
