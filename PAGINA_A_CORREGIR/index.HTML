@@ -28,8 +28,8 @@
 
 <script>
 
-let TempValue2 = 0;
-let x = 3;
+let promedio = 0;
+let totalnotas = 3;
 
 function calcular() {
 
@@ -43,11 +43,11 @@ function calcular() {
         return;
     }
 
-    TempValue2 = (a + b + c) / x;
+    promedio = (a + b + c) / x;
 
-    document.getElementById("resultado").innerHTML = "Promedio: " + TempValue2.toFixed(2);
+    document.getElementById("resultado").innerHTML = "Promedio: " + promedio.toFixed(2);
 
-    if (TempValue2 >= 3.0) {
+    if (promedio >= 3.0) {
         document.getElementById("resultado2").innerHTML = "Resultado: aprobado";
     } else {
         document.getElementById("resultado2").innerHTML = "Resultado: reprobado";
