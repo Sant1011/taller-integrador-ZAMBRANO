@@ -18,3 +18,5 @@ r, r2, cont1, n1, n2, n3 no describen su contenido y se lee un poco descontextua
 
 - Eliminar lineas de codigo que no cumplian con alguna funcion.
 data1 (nunca usada) y la funcion comentada calcularAntiguo son simplemente comentarios que no aportan mucho que digamos y aumentan el tamaño del archivo.
+
+https://systemnotes.netlify.app/
