@@ -1,4 +1,4 @@
-# Talle integrador - Santiago Isaac Zambrano Marriaga
+# Taller integrador - Santiago Isaac Zambrano Marriaga
 
 -Se hicieron cambios como:
 - Renombrar los dos archivos
